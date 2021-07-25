@@ -12,8 +12,8 @@ const createDiv=(e) =>{
     const card=
         `<div class="card" style="width: 18rem;" id="${e.empId}">
             <div class="card-body">
-                <h5 class="card-title">${e.name}</h5>
-                <h6>${e.company}</h6>
+                <h4 class="card-title">${e.name}</h4>
+                <h5>${e.company}</h5>
                 <a href="#" class="btn btn-primary">View Profile</a>
                 <button class="btn btn-danger deleteEmp" onclick="deleteEmployee(event,'${e.empId}')">
                     X
